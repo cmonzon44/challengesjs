@@ -1,0 +1,20 @@
+
+main{
+    min-height: 100%
+}
+body{
+    background-color: #335B67;
+    color:white;
+    font-size: 20px
+}
+
+
+.letter{
+    text-align: center;
+    background-color: rgba(0,0,0,.2);
+
+    transition: background-color 0.75s ease;
+    -moz-transition: background-color 0.75s ease;
+    -webkit-transition: background-color 0.75s ease;
+    -o-transition: background-color 0.75s ease;
+}

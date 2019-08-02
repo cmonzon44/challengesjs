@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href='main.css'>
+    <title>404 NOT FOUND</title>
+  </head>
+  <body>
+    <main class="darkBack">
+        <div class="container-fluid">
+          <div class="col-11 offset-1 p-5">
+            <div class='row' >
+              <div class='col-2 letter m-1 p-2'>Y</div>
+              <div class='col-2 letter m-1 p-2'>V</div>
+              <div class='col-2 letter m-1 p-2'>N</div>
+              <div class='col-2 letter m-1 p-2'>K</div>
+              <div class='col-2 letter m-1 p-2'>V</div>
+            </div>
+            
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2'>Y</div>
+              <div class='col-2 letter m-1 p-2'>V</div>
+              <div class='col-2 letter m-1 p-2 ntf'>4</div>
+              <div class='col-2 letter m-1 p-2 ntf'>0</div>
+              <div class='col-2 letter m-1 p-2 ntf'>4</div>
+            </div>
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2'>V</div>
+              <div class='col-2 letter m-1 p-2'>N</div>
+              <div class='col-2 letter m-1 p-2'>K</div>
+              <div class='col-2 letter m-1 p-2'>V</div>
+              <div class='col-2 letter m-1 p-2'>2</div>     
+            </div>
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2 ntf'>N</div>
+              <div class='col-2 letter m-1 p-2 ntf'>O</div>
+              <div class='col-2 letter m-1 p-2 ntf'>T</div>
+              <div class='col-2 letter m-1 p-2'>0</div>
+              <div class='col-2 letter m-1 p-2'>4</div>
+            </div>
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2 '>X</div>
+              <div class='col-2 letter m-1 p-2 '>A</div>
+              <div class='col-2 letter m-1 p-2 '>Q</div>
+              <div class='col-2 letter m-1 p-2 '>L</div>     
+              <div class='col-2 letter m-1 p-2 '>P</div>
+            </div>
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2 '>E</div>
+              <div class='col-2 letter m-1 p-2 '>C</div>
+              <div class='col-2 letter m-1 p-2 '>A</div>
+              <div class='col-2 letter m-1 p-2 '>T</div>     
+              <div class='col-2 letter m-1 p-2 '>L</div>
+            </div>
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2 ntf'>F</div>
+              <div class='col-2 letter m-1 p-2 ntf'>O</div>
+              <div class='col-2 letter m-1 p-2 ntf'>U</div>
+              <div class='col-2 letter m-1 p-2 ntf'>N</div>     
+              <div class='col-2 letter m-1 p-2 ntf'>D</div>
+            </div>
+            <div class='row'>
+              <div class='col-2 letter m-1 p-2 '>E</div>
+              <div class='col-2 letter m-1 p-2 '>C</div>
+              <div class='col-2 letter m-1 p-2 '>A</div>
+              <div class='col-2 letter m-1 p-2 '>T</div>     
+              <div class='col-2 letter m-1 p-2 '>L</div>
+            </div>
+          </div>
+        </div>
+    </main>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" >
+    
+      $(function(){
+
+      var lis = $('.ntf');
+
+      let dela= 1000;
+      for(let i =0; i< lis.length ; i++){
+          setTimeout(function(){
+              $(lis.get(i)).addClass('bg-dark');
+          }, dela);
+          dela +=500;
+      }
+
+      });
+    </script>
+  </body>
+</html>
