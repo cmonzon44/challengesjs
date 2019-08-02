@@ -2,8 +2,8 @@
 main{
     min-height: 100%
 }
-body{
-    background-color: #335B67;
+.jumbotron , body{
+    background-color: #335B67 !important;
     color:white;
     font-size: 20px
 }
